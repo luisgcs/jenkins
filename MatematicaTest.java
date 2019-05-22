@@ -51,6 +51,6 @@ public class MatematicaTest {
     
     @Test
     public void testEquacao() {
-        assertEquals(13, n.equacao(2, 3));
+        assertEquals(16, n.equacao(2, 3));
     }
 }
