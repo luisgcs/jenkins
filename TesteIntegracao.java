@@ -5,11 +5,11 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class MatematicaTest {
+public class TesteIntegracao {
     
     private Numeros n;
     
-    public MatematicaTest() {
+    public TesteIntegracao() {
     }
     
     @BeforeClass
@@ -30,25 +30,6 @@ public class MatematicaTest {
     public void tearDown() {
     }
 
-    /**
-     * Test of main method, of class Matematica.
-     */
-    @Test
-    public void testNumeroPar() {
-        assertTrue(n.numeroPar(8));
-    }
-    
-    @Test
-    public void testAreaQuadrada() {
-        
-        assertEquals(100, n.areaQuadrado(10));
-    }
-
-    @Test
-    public void testDivisivel() {
-        assertTrue(n.numeroDivisivel(4, 2));
-    }
-    
     @Test
     public void testEquacao() {
         assertEquals(13, n.equacao(2, 3));
